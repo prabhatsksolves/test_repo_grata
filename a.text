@@ -1,0 +1,65 @@
+
+C:\CypressWorkspace>npm run test 
+
+> testpkg@1.0.0 test C:\CypressWorkspace
+> cypress run --spec cypress/integration/2-advanced-examples/test.js --browser chrome
+
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:    7.7.0                                                                              │
+  │ Browser:    Chrome 93                                                                          │
+  │ Specs:      1 found (2-advanced-examples/test.js)                                              │
+  │ Searched:   cypress\integration\2-advanced-examples\test.js                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  2-advanced-examples/test.js                                                     (1 of 1)
+
+
+  Login
+    √ login positive (18481ms)
+
+
+  1 passing (23s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     23 seconds                                                                       │
+  │ Spec Ran:     2-advanced-examples/test.js                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: C:\CypressWorkspace\cypress\videos\2-advanced-examples\test    (2 seconds)
+                          .js.mp4                                                                   
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ √  2-advanced-examples/test.js              00:23        1        1        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    √  All specs passed!                        00:23        1        1        -        -        -  
+

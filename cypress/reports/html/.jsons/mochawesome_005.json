@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-29T11:41:17.726Z",
+    "end": "2021-09-29T11:41:52.267Z",
+    "duration": 34541,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7967bb4c-d9bc-4902-973b-c06f53a00a5e",
+      "title": "",
+      "fullFile": "cypress/integration/2-advanced-examples/test.js",
+      "file": "cypress/integration/2-advanced-examples/test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ab89fd65-a79a-456a-bee3-998155628ce1",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login positive",
+              "fullTitle": "Login login positive",
+              "timedOut": null,
+              "duration": 25110,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"www.google.com\");\ncy.get('.gLFyf').type('google').type('{enter}');",
+              "err": {},
+              "uuid": "5d89dd88-a62d-4b3d-84e7-8afd7ceaa174",
+              "parentUUID": "ab89fd65-a79a-456a-bee3-998155628ce1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5d89dd88-a62d-4b3d-84e7-8afd7ceaa174"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 25110,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

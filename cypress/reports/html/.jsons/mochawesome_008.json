@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-09-30T03:49:10.001Z",
+    "end": "2021-09-30T03:49:15.521Z",
+    "duration": 5520,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e3dd4949-3637-40ab-8771-46d95030f8b4",
+      "title": "",
+      "fullFile": "cypress/integration/2-advanced-examples/test.js",
+      "file": "cypress/integration/2-advanced-examples/test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1179d003-e043-4d0d-9bdd-14dfaff79892",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "login positive",
+              "fullTitle": "Login login positive",
+              "timedOut": null,
+              "duration": 5302,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"\\\\2-advanced-examples\\\\test.js\\\\Login -- login positive (failed).png\"\n      }\n    ]\n  ]\n}",
+              "code": "cy.visit(\"www.google.com\");\ncy.get('.gLFyf').type('google').type('{enter}');",
+              "err": {
+                "message": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://www.google.com/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND www.google.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer",
+                "estack": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://www.google.com/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: getaddrinfo ENOTFOUND www.google.com\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at http://localhost:55932/__cypress/runner/cypress_runner.js:140471:23\n    at visitFailedByErr (http://localhost:55932/__cypress/runner/cypress_runner.js:139830:12)\n    at http://localhost:55932/__cypress/runner/cypress_runner.js:140470:11\n    at tryCatcher (http://localhost:55932/__cypress/runner/cypress_runner.js:10798:23)\n    at Promise._settlePromiseFromHandler (http://localhost:55932/__cypress/runner/cypress_runner.js:8733:31)\n    at Promise._settlePromise (http://localhost:55932/__cypress/runner/cypress_runner.js:8790:18)\n    at Promise._settlePromise0 (http://localhost:55932/__cypress/runner/cypress_runner.js:8835:10)\n    at Promise._settlePromises (http://localhost:55932/__cypress/runner/cypress_runner.js:8911:18)\n    at _drainQueueStep (http://localhost:55932/__cypress/runner/cypress_runner.js:5505:12)\n    at _drainQueue (http://localhost:55932/__cypress/runner/cypress_runner.js:5498:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:55932/__cypress/runner/cypress_runner.js:5514:5)\n    at Async.drainQueues (http://localhost:55932/__cypress/runner/cypress_runner.js:5384:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:55932/__cypress/tests?p=cypress\\integration\\2-advanced-examples\\test.js:101:8)\n\nFrom Node.js Internals:\n  Error: getaddrinfo ENOTFOUND www.google.com\n      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)\n  ",
+                "diff": null
+              },
+              "uuid": "c1f13ad2-38e7-47f3-849f-addcf870b80a",
+              "parentUUID": "1179d003-e043-4d0d-9bdd-14dfaff79892",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "c1f13ad2-38e7-47f3-849f-addcf870b80a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 5302,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "5.2.0"
+    }
+  }
+}
